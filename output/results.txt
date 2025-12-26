@@ -1,0 +1,7 @@
+Customer Review Classification Results
+
+Model Used: Logistic Regression
+Feature Extraction: TF-IDF
+Accuracy Achieved: ~92%
+
+The model successfully classifies positive and negative customer reviews.
