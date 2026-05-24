@@ -44,16 +44,23 @@ src/
 ##  How It Works
 
 1.Load customer review dataset
+
 2.Perform text preprocessing
+
 3.Convert text into numerical vectors using TF IDF
+
 4.Train Logistic Regression model
+
 5.Predict Positive or Negative sentiment
+
 6.Evaluate model accuracy
 
 ##  Model Performance
 
 Algorithm: Logistic Regression
+
 Feature Extraction: TF IDF
+
 Accuracy: Approximately 92 percent
 
 ##  How to Run
@@ -73,8 +80,11 @@ python src/nlp_model.py
 ## Future Improvements
 
 Add deep learning based NLP models
+
 Build Streamlit web interface
+
 Add real time review prediction
+
 Support multilingual sentiment analysis
 
 ## License
