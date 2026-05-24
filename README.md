@@ -1,13 +1,13 @@
 # NLP Sentiment Analysis using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 This project implements an NLP based machine learning pipeline to classify customer reviews into Positive or Negative sentiments using TF IDF vectorization and Logistic Regression.
 
 The system processes textual customer reviews and predicts sentiment automatically using Natural Language Processing techniques.
 
 ---
 
-## 🎯 Objective
+##  Objective
 - Automate sentiment classification of customer reviews
 - Build an end to end NLP pipeline
 - Perform text preprocessing and feature extraction
@@ -15,7 +15,7 @@ The system processes textual customer reviews and predicts sentiment automatical
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 - Python
 - Scikit learn
 - Pandas
@@ -26,7 +26,7 @@ The system processes textual customer reviews and predicts sentiment automatical
 
 ---
 
-## ⚙️ Project Structure
+##  Project Structure
 
 ```text
 data/
@@ -41,7 +41,7 @@ output/
 src/
     nlp_model.py
 ```
-🚀 How It Works
+##  How It Works
 
 1.Load customer review dataset
 2.Perform text preprocessing
@@ -50,33 +50,33 @@ src/
 5.Predict Positive or Negative sentiment
 6.Evaluate model accuracy
 
-📊 Model Performance
+##  Model Performance
 
 Algorithm: Logistic Regression
 Feature Extraction: TF IDF
 Accuracy: Approximately 92 percent
 
-▶️ How to Run
+##  How to Run
 
 Install dependencies:
-</>Bash
+```
 pip install -r requirements.txt
-
+```
 Run notebook:
-</>Bash
+```
 jupyter notebook notebook/nlp_review_classification.ipynb
-
+```
 Or run Python script:
-</>Bash
+```
 python src/nlp_model.py
-
-🔮 Future Improvements
+```
+## Future Improvements
 
 Add deep learning based NLP models
 Build Streamlit web interface
 Add real time review prediction
 Support multilingual sentiment analysis
 
-📜 License
+## License
 
 This project is developed for educational and learning purposes.
